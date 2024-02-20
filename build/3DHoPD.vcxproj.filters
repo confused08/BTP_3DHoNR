@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\VICTUS\Documents\My Stuff\College\btp\codes\3DHoPD\src\3DHoPD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VICTUS\Documents\My Stuff\College\btp\codes\3DHoPD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6141E76-52CF-35BB-98EA-6ED401179569}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

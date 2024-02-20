@@ -1,0 +1,10 @@
+^C:\USERS\VICTUS\DOCUMENTS\MY STUFF\COLLEGE\BTP\CODES\3DHOPD\BUILD\CMAKEFILES\10BD6B34BC415B945D60E92E2823C340\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD" "-BC:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/3DHoPD.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

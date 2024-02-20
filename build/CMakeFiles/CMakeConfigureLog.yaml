@@ -1,0 +1,928 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 29-10-2023 22:26:50.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.52
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 29-10-2023 22:26:52.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.15
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-417bjh"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-417bjh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-417bjh
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_75044.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:26:55.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\cmTC_75044.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_75044.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\".
+          Creating directory "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75044.dir\\Debug\\\\" /Fd"cmTC_75044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75044.dir\\Debug\\\\" /Fd"cmTC_75044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\cmTC_75044.exe" /INCREMENTAL /ILK:"cmTC_75044.dir\\Debug\\cmTC_75044.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-417bjh/Debug/cmTC_75044.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-417bjh/Debug/cmTC_75044.lib" /MACHINE:X64  /machine:x64 cmTC_75044.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_75044.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\cmTC_75044.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\cmTC_75044.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\cmTC_75044.write.1u.tlog" "cmTC_75044.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\cmTC_75044.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\cmTC_75044.write.1u.tlog" "cmTC_75044.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\Debug\\cmTC_75044.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\cmTC_75044.write.1u.tlog" "cmTC_75044.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\unsuccessfulbuild".
+          Touching "cmTC_75044.dir\\Debug\\cmTC_75044.tlog\\cmTC_75044.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-417bjh\\cmTC_75044.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-qfnfl5"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-qfnfl5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-qfnfl5
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f16c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:26:57.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\cmTC_f16c9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f16c9.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\".
+          Creating directory "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f16c9.dir\\Debug\\\\" /Fd"cmTC_f16c9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f16c9.dir\\Debug\\\\" /Fd"cmTC_f16c9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\cmTC_f16c9.exe" /INCREMENTAL /ILK:"cmTC_f16c9.dir\\Debug\\cmTC_f16c9.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-qfnfl5/Debug/cmTC_f16c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-qfnfl5/Debug/cmTC_f16c9.lib" /MACHINE:X64  /machine:x64 cmTC_f16c9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f16c9.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\cmTC_f16c9.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\cmTC_f16c9.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\cmTC_f16c9.write.1u.tlog" "cmTC_f16c9.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\cmTC_f16c9.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\cmTC_f16c9.write.1u.tlog" "cmTC_f16c9.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\Debug\\cmTC_f16c9.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\cmTC_f16c9.write.1u.tlog" "cmTC_f16c9.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f16c9.dir\\Debug\\cmTC_f16c9.tlog\\cmTC_f16c9.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfnfl5\\cmTC_f16c9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-ar3whm"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-ar3whm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-ar3whm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_239a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:00.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\cmTC_239a2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_239a2.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\".
+          Creating directory "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_239a2.dir\\Debug\\\\" /Fd"cmTC_239a2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          OpenMPTryFlag.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_239a2.dir\\Debug\\\\" /Fd"cmTC_239a2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\cmTC_239a2.exe" /INCREMENTAL /ILK:"cmTC_239a2.dir\\Debug\\cmTC_239a2.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-ar3whm/Debug/cmTC_239a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-ar3whm/Debug/cmTC_239a2.lib" /MACHINE:X64  /machine:x64 cmTC_239a2.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_239a2.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\cmTC_239a2.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\cmTC_239a2.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\cmTC_239a2.write.1u.tlog" "cmTC_239a2.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\cmTC_239a2.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\cmTC_239a2.write.1u.tlog" "cmTC_239a2.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\Debug\\cmTC_239a2.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\cmTC_239a2.write.1u.tlog" "cmTC_239a2.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_239a2.dir\\Debug\\cmTC_239a2.tlog\\cmTC_239a2.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ar3whm\\cmTC_239a2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.04
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-wgpzuc"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-wgpzuc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-wgpzuc
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d09ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:02.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\cmTC_d09ce.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d09ce.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\".
+          Creating directory "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d09ce.dir\\Debug\\\\" /Fd"cmTC_d09ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          OpenMPTryFlag.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d09ce.dir\\Debug\\\\" /Fd"cmTC_d09ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\cmTC_d09ce.exe" /INCREMENTAL /ILK:"cmTC_d09ce.dir\\Debug\\cmTC_d09ce.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-wgpzuc/Debug/cmTC_d09ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-wgpzuc/Debug/cmTC_d09ce.lib" /MACHINE:X64  /machine:x64 cmTC_d09ce.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_d09ce.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\cmTC_d09ce.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\cmTC_d09ce.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\cmTC_d09ce.write.1u.tlog" "cmTC_d09ce.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\cmTC_d09ce.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\cmTC_d09ce.write.1u.tlog" "cmTC_d09ce.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\Debug\\cmTC_d09ce.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\cmTC_d09ce.write.1u.tlog" "cmTC_d09ce.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d09ce.dir\\Debug\\cmTC_d09ce.tlog\\cmTC_d09ce.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wgpzuc\\cmTC_d09ce.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.04
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-up6ldr"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-up6ldr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-up6ldr
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_029b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:04.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\cmTC_029b4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_029b4.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\".
+          Creating directory "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_029b4.dir\\Debug\\\\" /Fd"cmTC_029b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          OpenMPCheckVersion.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_029b4.dir\\Debug\\\\" /Fd"cmTC_029b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\cmTC_029b4.exe" /INCREMENTAL /ILK:"cmTC_029b4.dir\\Debug\\cmTC_029b4.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-up6ldr/Debug/cmTC_029b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-up6ldr/Debug/cmTC_029b4.lib" /MACHINE:X64  /machine:x64 cmTC_029b4.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_029b4.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\cmTC_029b4.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\cmTC_029b4.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\cmTC_029b4.write.1u.tlog" "cmTC_029b4.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\cmTC_029b4.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\cmTC_029b4.write.1u.tlog" "cmTC_029b4.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\Debug\\cmTC_029b4.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\cmTC_029b4.write.1u.tlog" "cmTC_029b4.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_029b4.dir\\Debug\\cmTC_029b4.tlog\\cmTC_029b4.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up6ldr\\cmTC_029b4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nxl5mx"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nxl5mx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nxl5mx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8c29a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:06.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\cmTC_8c29a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8c29a.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\".
+          Creating directory "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8c29a.dir\\Debug\\\\" /Fd"cmTC_8c29a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          OpenMPCheckVersion.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8c29a.dir\\Debug\\\\" /Fd"cmTC_8c29a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\cmTC_8c29a.exe" /INCREMENTAL /ILK:"cmTC_8c29a.dir\\Debug\\cmTC_8c29a.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nxl5mx/Debug/cmTC_8c29a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nxl5mx/Debug/cmTC_8c29a.lib" /MACHINE:X64  /machine:x64 cmTC_8c29a.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_8c29a.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\cmTC_8c29a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\cmTC_8c29a.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\cmTC_8c29a.write.1u.tlog" "cmTC_8c29a.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\cmTC_8c29a.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\cmTC_8c29a.write.1u.tlog" "cmTC_8c29a.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\Debug\\cmTC_8c29a.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\cmTC_8c29a.write.1u.tlog" "cmTC_8c29a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8c29a.dir\\Debug\\cmTC_8c29a.tlog\\cmTC_8c29a.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxl5mx\\cmTC_8c29a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindBoost.cmake:2128 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:135 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:305 (find_boost)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:533 (find_external_library)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-f8koh7"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-f8koh7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.9.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-f8koh7
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2def1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:09.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\cmTC_2def1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2def1.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\Debug\\".
+          Creating directory "cmTC_2def1.dir\\Debug\\cmTC_2def1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2def1.dir\\Debug\\cmTC_2def1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_2def1.dir\\Debug\\\\" /Fd"cmTC_2def1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_2def1.dir\\Debug\\\\" /Fd"cmTC_2def1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\src.c"
+        C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\cmTC_2def1.vcxproj]
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\cmTC_2def1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\cmTC_2def1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8koh7\\cmTC_2def1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindBoost.cmake:2128 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:135 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:305 (find_boost)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:533 (find_external_library)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-z6huep"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-z6huep"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.9.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-z6huep
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1e6da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:10.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\cmTC_1e6da.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1e6da.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\Debug\\".
+          Creating directory "cmTC_1e6da.dir\\Debug\\cmTC_1e6da.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1e6da.dir\\Debug\\cmTC_1e6da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1e6da.dir\\Debug\\\\" /Fd"cmTC_1e6da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1e6da.dir\\Debug\\\\" /Fd"cmTC_1e6da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\Debug\\cmTC_1e6da.exe" /INCREMENTAL /ILK:"cmTC_1e6da.dir\\Debug\\cmTC_1e6da.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-z6huep/Debug/cmTC_1e6da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-z6huep/Debug/cmTC_1e6da.lib" /MACHINE:X64  /machine:x64 cmTC_1e6da.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\cmTC_1e6da.vcxproj]
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\cmTC_1e6da.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\cmTC_1e6da.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6huep\\cmTC_1e6da.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindBoost.cmake:2128 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:135 (find_package)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:305 (find_boost)"
+      - "C:/Program Files/PCL 1.9.0/cmake/PCLConfig.cmake:533 (find_external_library)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-j28lp6"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-j28lp6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.9.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-j28lp6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_daeba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 29-10-2023 22:27:11.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\cmTC_daeba.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_daeba.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\Debug\\".
+          Creating directory "cmTC_daeba.dir\\Debug\\cmTC_daeba.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_daeba.dir\\Debug\\cmTC_daeba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_daeba.dir\\Debug\\\\" /Fd"cmTC_daeba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_daeba.dir\\Debug\\\\" /Fd"cmTC_daeba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\Debug\\cmTC_daeba.exe" /INCREMENTAL /ILK:"cmTC_daeba.dir\\Debug\\cmTC_daeba.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-j28lp6/Debug/cmTC_daeba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-j28lp6/Debug/cmTC_daeba.lib" /MACHINE:X64  /machine:x64 cmTC_daeba.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\cmTC_daeba.vcxproj]
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\cmTC_daeba.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\cmTC_daeba.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j28lp6\\cmTC_daeba.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 30-10-2023 10:40:47.
+      
+      Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.44
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 30-10-2023 10:40:50.
+      
+      Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.19
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nwcd2b"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nwcd2b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nwcd2b
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71cc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 30-10-2023 10:40:53.
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\cmTC_71cc7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_71cc7.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\".
+          Creating directory "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71cc7.dir\\Debug\\\\" /Fd"cmTC_71cc7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71cc7.dir\\Debug\\\\" /Fd"cmTC_71cc7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\cmTC_71cc7.exe" /INCREMENTAL /ILK:"cmTC_71cc7.dir\\Debug\\cmTC_71cc7.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nwcd2b/Debug/cmTC_71cc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-nwcd2b/Debug/cmTC_71cc7.lib" /MACHINE:X64  /machine:x64 cmTC_71cc7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_71cc7.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\cmTC_71cc7.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\cmTC_71cc7.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\cmTC_71cc7.write.1u.tlog" "cmTC_71cc7.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\cmTC_71cc7.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\cmTC_71cc7.write.1u.tlog" "cmTC_71cc7.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\Debug\\cmTC_71cc7.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\cmTC_71cc7.write.1u.tlog" "cmTC_71cc7.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_71cc7.dir\\Debug\\cmTC_71cc7.tlog\\cmTC_71cc7.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwcd2b\\cmTC_71cc7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-xhtx48"
+      binary: "C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-xhtx48"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-xhtx48
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bcf7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 30-10-2023 10:40:55.
+        
+        Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\cmTC_bcf7e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bcf7e.dir\\Debug\\".
+          Creating directory "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\".
+          Creating directory "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\src\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcf7e.dir\\Debug\\\\" /Fd"cmTC_bcf7e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\src\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcf7e.dir\\Debug\\\\" /Fd"cmTC_bcf7e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\cmTC_bcf7e.exe" /INCREMENTAL /ILK:"cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-xhtx48/Debug/cmTC_bcf7e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VICTUS/Documents/My Stuff/College/btp/codes/3DHoPD/build/CMakeFiles/CMakeScratch/TryCompile-xhtx48/Debug/cmTC_bcf7e.lib" /MACHINE:X64  /machine:x64 cmTC_bcf7e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bcf7e.vcxproj -> C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\cmTC_bcf7e.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\cmTC_bcf7e.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\cmTC_bcf7e.write.1u.tlog" "cmTC_bcf7e.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\cmTC_bcf7e.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\cmTC_bcf7e.write.1u.tlog" "cmTC_bcf7e.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\Debug\\cmTC_bcf7e.exe" "C:\\src\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\cmTC_bcf7e.write.1u.tlog" "cmTC_bcf7e.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bcf7e.dir\\Debug\\cmTC_bcf7e.tlog\\cmTC_bcf7e.lastbuildstate".
+        Done Building Project "C:\\Users\\VICTUS\\Documents\\My Stuff\\College\\btp\\codes\\3DHoPD\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhtx48\\cmTC_bcf7e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.12
+        
+      exitCode: 0
+...
